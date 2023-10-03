@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            table {
+            margin: 1em;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid red;
+            margin: auto;
+            padding: 5px;
+        }
+        .pink{
+            background-color: pink;
+        }
+        td{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="pink">cel1</th>
+            <th colspan="2" class="pink">samengevoegd</th>
+        </tr>
+        <tr>
+            <th rowspan="2" class="pink">samengevoegd</th>
+            <td>cel 5</td>
+            <td>cel 6</td>
+        </tr>
+        <tr>
+            <td>cel 8</td>
+            <td>cel 9</td>
+        </tr>
+    </table>
+</body>
+</html>
