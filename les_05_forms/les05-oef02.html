@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input{
+          border-radius: 5px;
+          width: 50%;
+          box-shadow: 5px 5px gray;
+          margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <label for="">Voornaam:</label>
+    <form action="https://tm-statweb.be/sendmail.php" method="post"> 
+
+    <input type="hidden" name="studentemail" value="r0942319@student.thomasmore.be">
+    <div>  
+        <input type="tekst" name="tekst" id="tekst" placeholder="Wesley">
+    </div>
+     <label for="">Familienaam:</label>
+  <div>
+    <input type="tekst" name="tekst" id="tekst" placeholder="Budts">
+  </div>
+  <label for="">Gebruikersnaam:</label>
+    <div>  
+        <input type="tekst" name="tekst" id="tekst" placeholder="mail@thomasmore.be">
+    </div>
+     <label for="">Nickname:</label>
+  <div>
+    <input min="5" max="15" type="tekst" name="tekst" id="tekst" required>
+  </div>
+  <label for="">Paswoord:</label>
+    <div>  
+        <input type="password" name="tekst" id="tekst" required>
+    </div>
+     <label for="">Herhaal paswoord:</label>
+  <div>
+    <input type="password" name="tekst" id="tekst" required>
+  </div>
+  
+  <div>
+    <input type="submit" value="Registreren">
+  </div>
+
+    </form>
+    
+</body>
+</html>

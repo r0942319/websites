@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            
+        }
+        select{
+            width: 15%;
+            padding: 10px;
+        }
+        label{
+            width: 30%;
+        }
+        input{
+            padding: 10px;
+        }   
+        fieldset{
+            width: 30%;
+            margin-top: 10px;
+        }
+        .registreren{
+            width: 30%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+        <form action="https://tm-statweb.be/sendmail.php" method="post"> 
+        <input type="hidden" name="studentemail" value="r0942319@student.thomasmore.be">
+        <div>
+            <label for="voornaam">Voornaam:
+            </label>
+        </div>
+        <input type="text" placeholder="Voornaam" required>
+        <div>
+            <label for="familienaam">Familienaam:
+            </label>
+        </div>
+        <input type="text" placeholder="Familienaam" required>
+        <div>
+            <label for="adres">Adres:
+            </label>
+        </div>
+        <input type="text" placeholder="Adres" required>
+        <div>
+            <label for="provincie">Provincie
+            </label>
+        </div>
+        <select name="provincie" id="provincie">
+            <option value="Limburg">Limburg</option>
+            <option value="Antwerpen">Antwerpen</option>
+            <option value="Oost-vlaanderen">Oost-vlaanderen</option>
+            <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+            <option value="West-Vlaanderen">West-Vlaanderen</option>
+            <option value="Henegouwen">Henegouwen</option>
+            <option value="Luik">Luik</option>
+            <option value="Luxemburg">Luxemburg</option>
+            <option value="Namen">Namen</option>
+            <option value="Waals-Brabant">Waals-Brabant</option>
+        </select>
+        <fieldset>
+
+            <legend><label for="geslacht">Geslacht:</label></legend>
+        <label for="man">Man
+            <input type="radio" id="man" name="1" value="man">
+            </label>
+            <label for="vrouw">Vrouw
+                <input type="radio" id="vrouw" name="1" value="vrouw">
+            </label>
+            <label for="ander">Ander
+                <input type="radio" id="ander" name="1" value="ander">
+            </label></fieldset>
+        <div>
+            <label for="foto">foto
+                <input type="file" name="bestand" id="bestand" required>
+
+            </label>
+        </div>
+<label for="">Ik ga akkoord met de algemene voorwaarden</label>
+<input type="checkbox" required>
+        <div>
+            <input class="registreren" type="submit" value="Registreren">
+        </div>
+
+    </form>
+</body>
+</html>

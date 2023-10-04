@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        input{
+            margin-bottom: 10px;
+            padding: 10px;
+            
+        }
+        input[type=radio]#Red {
+            accent-color: red;
+        }
+        fieldset{
+            display: inline-block;
+            background-color: goldenrod;
+            width: 300px;
+        }
+        legend{
+            background-color: maroon;
+            padding: 5px;
+        }
+        fieldset{
+            font-size: 12px;
+            text-align: left;
+        }
+        .registreren{
+            margin-top: 10px;
+            background-color: goldenrod;
+            width: 323px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend><label for="">Geslacht:</label></legend>
+        <form action="https://tm-statweb.be/sendmail.php" method="post"> 
+        <input type="hidden" name="studentemail" value="r0942319@student.thomasmore.be">
+        <label for="man">Man
+        <input type="radio" id="Red" name="2" value="man">
+        </label>
+        <label for="vrouw">Vrouw
+            <input type="radio" id="Red" name="2" value="vrouw">
+        </label>
+        <label for="ander">Ander
+            <input type="radio" id="Red" name="2" value="ander">
+        </label>
+    </fieldset>
+
+<div>
+    <fieldset>
+        <legend><label for="">Kleur ogen:</label></legend>
+        <label for="bruin">bruin
+        <input type="radio" id="Red" name="1" value="bruin">
+        </label>
+        <label for="groen">groen
+            <input type="radio" id="Red" name="1" value="groen">
+        </label>
+        <label for="blauw">blauw
+            <input type="radio" id="Red" name="1" value="blauw">
+        </label>
+        <label for="grijs">grijs
+            <input type="radio" id="Red" name="1" value="grijs">
+        </label>
+        </div>
+        <div>
+        <input class="registreren" type="submit" value="Registreren">
+    </div>
+</fieldset>
+
+</form>
+</body>
+</html>
+<!-- legend gebruiken voor text geslacht en kleur ogen iets erboven-->
