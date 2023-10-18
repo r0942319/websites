@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="default.css" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <script src="https://kit.fontawesome.com/f319a0f66e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Wesley Budts</div>
+    <div class="hamburger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="Curriculum_Vitae.html">CV</a>
+        </li>
+        <li>
+          <a href="Ervaring.html">Werkervaring</a>
+        </li>
+        <li>
+          <a href="hobby_interesses.html">Interesses</a>
+        </li>
+        <li>
+          <a href="Contact.html" class="active">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="line">
+    <hr />
+  </div>
+  <h2 class="centertext">Contact</h2>
+
+  <div class="flexbox-container">
+    <div class="centertext flexbox-item flexbox-item-2">
+      <h1 class="centertext">Contact</h1>
+      <label for="text5">Naam</label>
+      <form action="https://tm-statweb.be/sendmail.php" method="post">
+        <input type="hidden" name="studentemail" value="r0942319@student.thomasmore.be" />
+        <div>
+          <input type="text" name="naam" id="text5" placeholder="Naam" required />
+        </div>
+        <label for="email">Email</label>
+        <div>
+          <input type="email" name="email" id="email" placeholder="email" required />
+        </div>
+        <label for="bericht">Bericht</label>
+        <div>
+          <textarea id="bericht" rows="4" cols="50" name="comment" form="bericht"></textarea>
+        </div>
+        <div>
+          <input class="marginedit" type="submit" value="Versturen" />
+        </div>
+      </form>
+    </div>
+    <div class="flexbox-item flexbox-item-88">
+      <p class="centertext">
+        Voor vragen of een eventuele samenwerking kan je mij op de
+        onderstaande manieren contacteren.
+      </p>
+      <h1>Bezoek me</h1>
+      <p>
+        <iframe class="centertext"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.1542159454298!2d4.958824076160376!3d51.16094623595441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c14c011b4bcb87%3A0xb5b970e9f2a6ce42!2sThomas%20More%20-%20Campus%20Geel!5e0!3m2!1snl!2sbe!4v1697658485362!5m2!1snl!2sbe"
+          width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </p>
+    </div>
+    <div class="flexbox-item flexbox-item-2">
+      <h1 class="centertext">Socials</h1>
+      <p class="centertext">
+        <a href="mailto:">0942319@student.thomasmore.be</a>
+      </p>
+      <p class="centertext"><a href="https://www.linkedin.com/feed/" target="_blank"><i
+            class="fa-brands fa-linkedin fa-2xl"></i></a></p>
+      <p class="centertext"><a href="https://www.instagram.com/" target="_blank"><i
+            class="fa-brands fa-instagram fa-2xl"></i></a></p>
+      <p class="centertext"><a href="https://twitter.com/" target="_blank"><i
+            class="fa-brands fa-square-x-twitter fa-2xl"></i></a></p>
+      <p class="centertext"><a href="https://discord.com/" target="_blank"><i
+            class="fa-brands fa-discord fa-2xl"></i></a>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
