@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+}
+/* navbar */
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li a {
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    transition: 0.2;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+.nav-bar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.nav-bar ul li a.active{
+    color: black;
+    background: white;
+}
+
+.line hr{
+    height: 5px;
+    border: 10px;
+    background: aqua;
+}
+
+/* layout */
+
+.flexbox-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+    height: 700px;
+}
+
+.flexbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+}
+.flexbox-item{
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: aliceblue;
+}
+
+.flexbox-item-1{
+    min-height: 100px;
+}
+.flexbox-item-2{
+    min-height: 400px;
+    min-width: 400px;
+}
+.flexbox-item-3{
+    min-height: 30px;
+    align-self:center;
+}
+.flexbox-item-4{
+    min-height: 400px;
+}
+.flexbox-item-5{
+    min-height: 400px;
+    min-width: 400px;
+}
+.flexbox-item-6{
+    min-height: 400px;
+    min-width: 400px;
+}
+
+.flexbox-item-7{
+    min-height: 400px;
+    min-width: 400px;
+    flex-grow: 2;
+}
+.flexbox-item-8{
+    min-height: 400px;
+    min-width: 400px;
+}
+
+.imgcenter{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 500px;
+}
+
+/* Font/text */
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+p{
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+
+/* progress bar voor vaardigheden en talen aanmaken*/
+
+
+
+
+
+
+
