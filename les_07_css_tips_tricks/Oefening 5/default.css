@@ -1,0 +1,32 @@
+header{
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+nav{
+
+
+}
+
+.navofzo{
+   display: grid;
+   grid-template-columns: auto;
+   background-color: beige;
+   height: 500px;
+   width: auto;
+}
+
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: center; 
+}
