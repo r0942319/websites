@@ -1,0 +1,46 @@
+.flex-container{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+}
+.flex-container>div{
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.aqua{
+    background-color: aqua;
+    margin: 90px;
+}
+.pink{
+    background-color: pink;
+    margin: 90px;
+}
+.green{
+    background-color: green;
+    margin: 90px;
+}
+.red{
+    background-color: red;
+    padding: 70px;
+}
+.purple{
+    background-color: purple;
+    margin: 70px;
+}
+.lightgreen{
+    background-color: lightgreen;
+    margin: 70px;
+}
+.darkblue{
+    background-color: darkblue;
+    margin: 70px;
+}
+.goldenrod{
+    background-color: goldenrod;
+    margin: 70px;
+}
+.yellow{
+    background-color: yellow;
+    margin: 80px; 
+}

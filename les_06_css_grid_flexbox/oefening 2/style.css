@@ -1,0 +1,62 @@
+body, html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(auto, 5);
+    grid-template-areas:
+        "main"
+        "footer";
+}
+
+aside {
+    grid-area: sidebar;
+    background-color: green;
+    color: White;
+    text-align: center;
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+main {
+    grid-area: main;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    body {
+        margin: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto 27% 27% 27%;
+        grid-template-rows: 8% 30% auto 10%;
+        grid-template-areas:
+            "header header header header"
+            "sidebar main  main  main"
+            "sidebar main   main   main"
+            "footer footer footer footer";
+    }
+
+}
