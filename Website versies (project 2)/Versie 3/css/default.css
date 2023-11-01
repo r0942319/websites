@@ -1,0 +1,50 @@
+
+/* algemeen */
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    border-bottom: 3px solid aqua;
+}
+
+/* navbar instellingen */
+
+
+.navbar-nav .nav-item {
+    margin-right: 120px;
+}
+
+
+.navbar-brand {
+    margin-right: 120px;
+}
+
+.nav-link{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 10px 25px;
+    transition: 0.2;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+.nav-link.active{
+    color: white;
+    background-color: black;
+}
+
+.bold{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 20px;
+}
